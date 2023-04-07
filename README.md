@@ -39,6 +39,8 @@ db_db = SCHEMA_NAME<br>
 <br>
 <h1>SQL Server Setup</h1>
 
+<h4>A script now exists to do this for you called "SQL_DB_CREATOR.sql"</h4>
+
 create a schemea<br>
 banned_ips<br>
 	-banned_id [INT] (PK,NN,UQ,AI)<br>
