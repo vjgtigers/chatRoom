@@ -1,0 +1,11 @@
+ip logging
+admin account
+admins
+room by room admins
+can be banned on a room by room basis
+join rooms by name not just int
+turn into python module
+add documentation
+possibly make login into own fucntion in multiserver2sql
+possibly make account creation into own fucntion in multiserver2sql
+make sure server doesnt break on client stuff

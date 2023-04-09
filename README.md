@@ -1,4 +1,5 @@
 <h1>This is currenly a python based server/client chatroom</h1><br>
+<h2>using a SQL database to store information</h2>
 <br>
 <h3>Functionalitys currently include:</h3><br>
 <br>
