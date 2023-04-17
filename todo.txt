@@ -1,4 +1,5 @@
-ip logging
+ip logging -- done
+room limiting -- done
 admin account
 admins
 room by room admins
