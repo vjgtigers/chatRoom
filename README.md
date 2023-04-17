@@ -14,8 +14,11 @@
   -bannedips <br>
 -ability to create accounts <br>
 -ability to bann ips <br>
-<br>
+-ip logging <br>
+
+<br><br><br>
 <h3>Looking to add:</h3><br>
+-improved server resiliency (login/create account breaks server if client sends just enter key)<br>
 -account banning <br>
 -spam protection <br>
 
@@ -23,7 +26,7 @@
 <br><br><br>
 
 <h3>Non server related things that i want to add</h3> <br>
- -execualtable client side (proabably in c++)<br>
+ -execualtable client side (proabably in rust)<br>
 
 <br><br>
 
@@ -68,3 +71,8 @@ login_data<br>
 rooms<br>
 	-room_id [INT] (PK,NN,UQ,AI)<br>
 	-room_name [VARCHAR(45)]<br>
+ip_logs<br>
+	-ipLogs_id [INT] (PK,NN,UQ,AI)<br>
+    -client_id [INT]<br>
+    -ip_add [VARCHAR(100)]<br>
+    -time_date [VARCHAR(45)]<br>

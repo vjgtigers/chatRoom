@@ -1,5 +1,6 @@
 ip logging -- done
 room limiting -- done
+server breaks when login or create account when client sends just the enter button on inputs.
 admin account
 admins
 room by room admins
